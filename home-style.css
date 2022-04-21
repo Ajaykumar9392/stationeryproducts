@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.menu{
+    background : black;
+    
+    margin-left: 40%;
+    display: flex;
+}
+.menu a{
+    margin-right: 8%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    
+    display: block;
+}
+
+.menu a:hover{
+    background-color: olivedrab;
+    color: black;
+    border-color: white;
+    
+}
+
+marquee{
+    margin-top: 30px;
+}
+
+marquee img{
+    width: 300px;
+    height: 300px;
+}
+
+marquee img:hover nth-child(1){
+    opacity: .5;
+}
+
+/*-----------------------------------------*/
+.container
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100vh;
+}
+.container .slider
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500%;
+	height: 100%;
+	animation: animate 10s linear infinite;
+}
+.container .slider .slide
+{
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+.container .slider .slide.slide1
+{
+	background: url("1.jpg");
+	background-size: 1550px 480px;
+	background-repeat: no-repeat;
+}
+.container .slider .slide.slide2
+{
+	background: url("2.jpg");
+	background-size: 1550px 480px;
+    background-size: 1550px 480px;
+	background-repeat: no-repeat;
+}
+.container .slider .slide.slide3
+{
+	background: url("3.jpg");
+    background-size: 1550px 480px;
+	background-repeat: no-repeat;
+}
+.container .slider .slide.slide4
+{
+	background: url("4.jpg");
+    background-size: 1550px 480px;
+	background-repeat: no-repeat;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		left: 0;
+	}
+	20%
+	{
+		left: 0;
+	}
+	25%
+	{
+		left: -100%;
+	}
+	45%
+	{
+		left: -100%;
+	}
+	50%
+	{
+		left: -200%;
+	}
+	70%
+	{
+		left: -200%;
+	}
+	75%
+	{
+		left: -300%;
+	}
+	95%
+	{
+		left: -300%;
+	}
+	100%
+	{
+		left: -400%;
+	}
+}
+/*--------------------------------------------------*/
+.products h1{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: -200px;
+}
+.products a img{
+    width: 480px;
+    height: 200px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.products a img:hover{
+    background-color: #000;
+    filter: opacity(70%);
+    cursor: pointer;
+    padding: -20px;
+    border: 2px solid red;
+}
+.footer1{
+    height: 100px;
+    margin-bottom: 50px;
+    background: #000;
+    color: #fff;
+}
+.footer1 a{
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+.footer1 a:hover{
+    color: red;
+}
